@@ -1,0 +1,14 @@
+.tituloProjetos{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
+    align-self: flex-start;
+    align-items: baseline;
+    padding: 40px 0;
+}
+
+.h2Sobre{
+   padding-left: 30px;
+}
+

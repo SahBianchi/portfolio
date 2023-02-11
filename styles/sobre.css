@@ -1,0 +1,28 @@
+.containerTxt{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.containerImgSobre{
+    padding: 20px 50px 30px 50px;
+}
+
+.textoSobre{
+    width: 40%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.buttonCv{
+    border-radius: 50px;
+    font-size: 32px;
+    width: 310px;
+    height: 61px;
+    margin-top: 30px;
+}

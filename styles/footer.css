@@ -1,0 +1,18 @@
+.containerFooter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgFooter{
+    width: 88px;
+    height: 78px;
+    padding: 30px;
+}
+
+.txtFooter{
+    font-size: 32px;
+    text-align: center;
+    padding: 30px;
+}

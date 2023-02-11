@@ -1,0 +1,41 @@
+.containerApresentacao{
+    width: 100%;
+    display: flex; 
+    padding-bottom: 40px;
+}
+
+.containerTxtApresentacao{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 140px 0 80px 100px;
+}
+
+.containerTxtPrincipal{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.txtSam{
+    font-size: 64px;
+    padding-left: 10px;
+}
+
+.txtDev{
+    font-size: 48px;
+}
+
+.txtApoio{
+    font-size: 36px;
+}
+
+.txtApoioSinal{
+    font-size: 64px;
+}
+
+.containerImgTopo{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}

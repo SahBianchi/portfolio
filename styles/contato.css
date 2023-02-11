@@ -1,0 +1,22 @@
+.containerContato{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.txtContato{
+    font-size: 48px;
+    text-align: center;
+}
+
+.containerIcones{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-content: center;
+}
+
+.imgIcones{
+    width: 90px;
+    padding: 20px;
+}
