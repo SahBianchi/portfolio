@@ -8,7 +8,59 @@
     padding: 40px 0;
 }
 
-.h2Sobre{
-   padding-left: 30px;
+.h2Projetos{
+    padding-left: 40px;
 }
 
+.containerCards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px 0 120px 0;
+}
+
+.containerCardInd{
+    width: 404px;
+    height: 620px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.containerImgProjeto{
+    border-radius: 50px;
+}
+
+.imgProjeto{
+    width: 351px;
+    height: 207px;
+    border-radius: 20px;
+    margin: 30px 0;
+}
+
+.TxtCard{
+    width: 350px;
+    /* padding-bottom: 120px; */
+}
+
+.h3Card{
+    font-size: 36px;
+}
+
+.txtCard{
+    font-size: 16px;
+}
+
+.containerIconesProjetos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.iconesCard{
+    padding: 0 10px;
+}
