@@ -43,15 +43,11 @@
 
 .TxtCard{
     width: 350px;
-    /* padding-bottom: 120px; */
+    font-size: 16px;
 }
 
 .h3Card{
     font-size: 36px;
-}
-
-.txtCard{
-    font-size: 16px;
 }
 
 .containerIconesProjetos{
@@ -63,4 +59,73 @@
 
 .iconesCard{
     padding: 0 10px;
+}
+
+
+ @media(max-width: 1200px) {
+    .tituloProjetos{
+        font-size: 20px;
+        padding: 20px 0;
+    }
+    
+    .h2Projetos{
+        padding: 0 0 0 10px;
+    }
+
+    .linhaEsquerda{
+        width: 107px;
+    }
+    
+    .containerCards{
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0px 0 40px 0;
+    }
+    
+    .cardCasulo{
+        height: 500px;
+        margin: 30px auto;
+        width: 270px;
+    }
+
+    .cardMostraPraElas{
+        height: 700px;
+        margin: 30px auto;
+        width: 270px;
+    }
+
+    .cardEasyc{
+        height: 500px;
+        margin: 30px auto;
+        width: 270px;
+    }
+    
+    .containerImgProjeto{
+        border-radius: 50px;
+    }
+    
+    .imgProjeto{
+        width: 250px;
+        height: 147.44px;
+        border-radius: 20px;
+    }
+    
+    .TxtCard{
+        width: 230px;
+    }
+    
+    .h3Card{
+        font-size: 20px;
+    }
+    
+    .txtCard{
+        font-size: 10px;
+    }
+      
+    .iconesCard{
+        width: 28px;
+        height: 28px;
+    }
+
+
 }

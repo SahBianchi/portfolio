@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif; 
 }
 
 .corTitulo{
@@ -26,9 +26,6 @@
     font-family: 'Bebas Neue', cursive;
 }
 
-.fontRoboto{
-    font-family: 'Roboto', sans-serif; 
-}
 
 .containerTitulo{
     width: 100%;
@@ -36,7 +33,7 @@
     flex-direction: column;
 }
 
-.tituloLEsquerdo{
+.tituloLDireito{
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -46,6 +43,24 @@
     padding: 40px 0;
 }
 
-.h2LEsquerdo{
+.h2LDireito{
     padding-left: 30px;
+ }
+
+
+ @media(max-width: 1200px) {
+
+    .tituloLDireito{
+        font-size: 20px;
+        padding: 40px 0;
+        align-items: flex-end;
+    }
+    
+    .h2LDireito{
+        padding: 0 40px;
+     }
+
+    .linhaTituloLD{
+        width: 107px;
+    }
  }

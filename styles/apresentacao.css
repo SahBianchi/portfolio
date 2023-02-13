@@ -39,3 +39,45 @@
     display: flex;
     justify-content: flex-end;
 }
+
+
+ @media(max-width: 1200px) {
+    .containerTxtApresentacao{
+        width: 60%;
+        padding: 50px 0 50px 20px;
+    }
+        
+    .containerTxtPrincipal{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+    
+    .txtSam{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    
+    .txtDev{
+        font-size: 20px;
+    }
+    
+    .txtApoio{
+        font-size: 12px;
+    }
+    
+    .txtApoioSinal{
+        font-size: 20px;
+    }
+    
+    .containerImgTopo{
+        width: 40%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .imgTopo{
+        /* width: 196.64px; */
+        height: 154.85px;
+    }
+ }

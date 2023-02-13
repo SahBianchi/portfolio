@@ -26,3 +26,29 @@
     height: 61px;
     margin-top: 30px;
 }
+
+@media(max-width: 1200px) {
+    .containerTxt{
+        justify-content: center;
+    }
+
+    .containerImgSobre{
+        padding: 5px 5px;
+    }
+        
+    .imgSobre{
+        width: 135.9px;
+        height: 135.92px;
+    }
+    
+    .textoSobre{
+        width: 55%;
+        font-size: 10px;
+    }
+    
+    .buttonCv{
+        font-size: 16px;
+        width: 186px;
+        height: 24px;
+    }
+}

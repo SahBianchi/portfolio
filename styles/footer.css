@@ -16,3 +16,14 @@
     text-align: center;
     padding: 30px;
 }
+
+@media(max-width: 1200px) {    
+    .imgFooter{
+        width: 36px;
+        height: 34px;
+    }
+    
+    .txtFooter{
+        font-size: 15px;
+    }
+}

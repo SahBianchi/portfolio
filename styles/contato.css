@@ -20,3 +20,25 @@
     width: 90px;
     padding: 20px;
 }
+
+@media(max-width: 1200px) {
+    .txtContato{
+        font-size: 24px;
+    }
+    
+    .containerIcones{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        align-content: center;
+    }
+    
+    .imgIcones{
+        width: 44px;
+        padding: 20px;
+    }
+
+    .h2Contatos{
+        padding: 0 20px;
+    }
+}
