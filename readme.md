@@ -27,7 +27,7 @@ Além disso ele também está responsivo para celular.
 Toda a criação do layout também foi feita por mim no figma.
 
 <p align="center">
-    <img src="./src/logoSam.png" width="400" height="auto"> <br>
+    <img src="./src/logoSam.png" width="100" height="auto"> <br>
     A logo tem a letra "S" inicial do meu nome representando a cabeça da abelha e a letra "B" inicial do meu sobrenome formam as asas da abelha.
     A abelha tem um significado espiritual para mim e por isso a utilização dela para criar a minha logo e identidade visual
 </p><br>
